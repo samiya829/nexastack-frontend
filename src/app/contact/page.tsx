@@ -23,14 +23,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@nexastack.com',
-    href: 'mailto:hello@nexastack.com',
+    value: 'ruweidabashir37@gmail.com',
+    href: 'mailto:ruweidabashir37@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567',
+    value: '+254714076621',
+    href: 'tel:+254714076621',
   },
   {
     icon: MapPin,

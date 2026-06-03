@@ -18,7 +18,7 @@ const plans = [
     price: { monthly: 0, yearly: 0 },
     cta: 'Get Started Free',
     ctaVariant: 'outline' as const,
-    href: '/signup',
+    href: '/#features',
     popular: false,
     features: [
       { text: '3 projects', included: true },
@@ -37,7 +37,7 @@ const plans = [
     price: { monthly: 0, yearly: 0 },
     cta: 'Get Started Free',
     ctaVariant: 'primary' as const,
-    href: '/signup',
+    href: '/#features',
     popular: true,
     features: [
       { text: 'Unlimited projects', included: true },
@@ -56,7 +56,7 @@ const plans = [
     price: { monthly: 0, yearly: 0 },
     cta: 'Get Started Free',
     ctaVariant: 'outline' as const,
-    href: '/signup',
+    href: '/#features',
     popular: false,
     features: [
       { text: 'Unlimited projects', included: true },

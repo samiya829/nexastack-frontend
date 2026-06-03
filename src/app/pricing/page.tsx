@@ -34,7 +34,7 @@ const plans = [
   {
     name: 'Pro',
     description: 'For professionals and growing teams.',
-    price: { monthly: 29, yearly: 24 },
+    price: { monthly: 0, yearly: 0 },
     cta: 'Start Pro Trial',
     ctaVariant: 'primary' as const,
     href: '/signup?plan=pro',
@@ -53,7 +53,7 @@ const plans = [
   {
     name: 'Enterprise',
     description: 'For large organizations with advanced needs.',
-    price: { monthly: 99, yearly: 82 },
+    price: { monthly: 0, yearly: 0 },
     cta: 'Contact Sales',
     ctaVariant: 'outline' as const,
     href: '/contact',

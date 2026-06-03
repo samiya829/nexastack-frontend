@@ -35,9 +35,9 @@ const plans = [
     name: 'Pro',
     description: 'For professionals and growing teams.',
     price: { monthly: 0, yearly: 0 },
-    cta: 'Start Pro Trial',
+    cta: 'Get Started Free',
     ctaVariant: 'primary' as const,
-    href: '/signup?plan=pro',
+    href: '/signup',
     popular: true,
     features: [
       { text: 'Unlimited projects', included: true },
@@ -54,9 +54,9 @@ const plans = [
     name: 'Enterprise',
     description: 'For large organizations with advanced needs.',
     price: { monthly: 0, yearly: 0 },
-    cta: 'Contact Sales',
+    cta: 'Get Started Free',
     ctaVariant: 'outline' as const,
-    href: '/contact',
+    href: '/signup',
     popular: false,
     features: [
       { text: 'Unlimited projects', included: true },

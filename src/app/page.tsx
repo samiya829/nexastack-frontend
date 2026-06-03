@@ -100,9 +100,9 @@ export default function HomePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up">
-            <Link href="/signup">
+            <Link href="/#features">
               <Button size="lg" className="gap-2 px-8 shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40">
-                Start for free
+                Get Started Free
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
@@ -216,13 +216,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/pricing">
-              <Button size="lg" variant="outline">View All Plans</Button>
-            </Link>
-            <Link href="/signup">
-              <Button size="lg">
-                Start Free Trial
-                <ArrowRight className="w-4 h-4 ml-1" />
-              </Button>
+              <Button size="lg">View All Plans</Button>
             </Link>
           </div>
         </div>
@@ -238,7 +232,7 @@ export default function HomePage() {
             Join 50,000+ developers who ship faster with NexaStack. Free to start, easy to scale.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/signup">
+            <Link href="/#features">
               <Button size="lg" className="bg-white text-primary-700 hover:bg-primary-50 shadow-lg">
                 Get Started — It's Free
                 <ArrowRight className="w-4 h-4 ml-1" />
